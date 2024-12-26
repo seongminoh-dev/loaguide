@@ -1,7 +1,11 @@
-export default function Home() {
+"use client";
+
+import APIKeyBox from "@/components/APIKeyBox";
+
+export default function AuthPage() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-yellow-500">
-      <h1 className="text-4xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
+    <div className="flex flex-1 items-center justify-center min-h-screen bg-gray-900 text-white">
+      <APIKeyBox />
     </div>
   );
 }

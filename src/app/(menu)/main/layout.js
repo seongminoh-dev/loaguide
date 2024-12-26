@@ -1,8 +1,8 @@
 import Header from "@/components/Header"
 
 export const metadata = {
-  title: 'LoaGuide : 개발키 인증',
-  description: '개발키 인증 단계 입니다.',
+  title: 'LoaGuide',
+  description: 'LoaGuide 메인화면 입니다',
 }
 
 export default function RootLayout({ children }) {
